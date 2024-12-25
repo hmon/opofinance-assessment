@@ -1,0 +1,58 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskForm Component > renders TaskForm component 1`] = `
+<form
+  class="_TaskForm_e8b683"
+  data-testid="task-form"
+>
+  <div
+    class="_TextField_da86b6"
+  >
+    <label
+      for=":r0:"
+    >
+      Title
+    </label>
+    <input
+      class="_input_da86b6"
+      id=":r0:"
+      value=""
+    />
+  </div>
+  <div
+    class="_TextField_da86b6"
+  >
+    <label
+      for=":r1:"
+    >
+      Description
+    </label>
+    <input
+      class="_input_da86b6"
+      id=":r1:"
+      value=""
+    />
+  </div>
+  <div
+    class="_TextField_da86b6"
+  >
+    <label
+      for=":r2:"
+    >
+      Due Date
+    </label>
+    <input
+      class="_input_da86b6"
+      id=":r2:"
+      type="date"
+      value=""
+    />
+  </div>
+  <button
+    class="_Button_2a1efe"
+    type="submit"
+  >
+    Add Task
+  </button>
+</form>
+`;

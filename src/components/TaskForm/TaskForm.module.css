@@ -1,0 +1,12 @@
+.TaskForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  align-self: flex-start;
+
+  @media (min-width: 768px) {
+    width: 25%;
+  }
+}

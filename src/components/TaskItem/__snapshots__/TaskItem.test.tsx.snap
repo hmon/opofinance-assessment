@@ -1,0 +1,137 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskItem > renders TaskItem component 1`] = `
+<li
+  class="_TaskItem_a9f61b _TaskItemOverdue_a9f61b"
+  data-testid="task-item"
+>
+  <span
+    class="_TaskItemDragHandle_a9f61b"
+  >
+    <svg
+      height="24"
+      width="24"
+    >
+      <path
+        d="M14.5 15.5a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 14.5 15.5zm-5 0a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 9.5 15.5zm5-5a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 14.5 10.5zm-5 0a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 9.5 10.5zm5-5a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 14.5 5.5zm-5 0a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 9.5 5.5z"
+        fill="currentColor"
+      />
+    </svg>
+  </span>
+  <button
+    class="_TaskItemCheckbox_a9f61b"
+  >
+    <span
+      class="_TaskItemCheckboxCircle_a9f61b"
+    />
+    <svg
+      class="_TaskItemCheckboxCheck_a9f61b"
+      fill="none"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M16.5056 9.00958C16.2128 8.71668 15.7379 8.71668 15.445 9.00958L10.6715 13.7831L8.72649 11.8381C8.43359 11.5452 7.95872 11.5452 7.66583 11.8381C7.37294 12.1309 7.37293 12.6058 7.66583 12.8987L10.1407 15.3736C10.297 15.5299 10.5051 15.6028 10.7097 15.5923C10.8889 15.5833 11.0655 15.5104 11.2023 15.3735L16.5056 10.0702C16.7985 9.77735 16.7985 9.30247 16.5056 9.00958Z"
+        fill="currentColor"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="_TaskItemWrapper_a9f61b"
+  >
+    <div
+      class="_TaskItemContent_a9f61b"
+    >
+      <div
+        class="_TaskTitle_a9f61b"
+      >
+        Foo Task
+      </div>
+      <div
+        class="_TaskDescription_a9f61b"
+      >
+        Foo Description
+      </div>
+      <span
+        class="_TaskItemDate_a9f61b"
+      >
+        <svg
+          fill="none"
+          height="14"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            height="18"
+            rx="2"
+            ry="2"
+            width="18"
+            x="3"
+            y="4"
+          />
+          <line
+            x1="16"
+            x2="16"
+            y1="2"
+            y2="6"
+          />
+          <line
+            x1="8"
+            x2="8"
+            y1="2"
+            y2="6"
+          />
+          <line
+            x1="3"
+            x2="21"
+            y1="10"
+            y2="10"
+          />
+        </svg>
+        January 1, 2022
+      </span>
+    </div>
+    <div
+      class="_TaskItemActions_a9f61b"
+    >
+      <div
+        class="_TaskItemStatus_a9f61b"
+      >
+        In Progress
+      </div>
+      <button
+        class="_TaskItemDelete_a9f61b"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="none"
+          height="16"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="3 6 5 6 21 6"
+          />
+          <path
+            d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</li>
+`;

@@ -1,0 +1,124 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskManager Component > renders TaskManager component 1`] = `
+<div
+  class="_TaskManager_0c2a9a"
+  data-testid="task-manager"
+>
+  <form
+    class="_TaskForm_e8b683"
+    data-testid="task-form"
+  >
+    <div
+      class="_TextField_da86b6"
+    >
+      <label
+        for=":r0:"
+      >
+        Title
+      </label>
+      <input
+        class="_input_da86b6"
+        id=":r0:"
+        value=""
+      />
+    </div>
+    <div
+      class="_TextField_da86b6"
+    >
+      <label
+        for=":r1:"
+      >
+        Description
+      </label>
+      <input
+        class="_input_da86b6"
+        id=":r1:"
+        value=""
+      />
+    </div>
+    <div
+      class="_TextField_da86b6"
+    >
+      <label
+        for=":r2:"
+      >
+        Due Date
+      </label>
+      <input
+        class="_input_da86b6"
+        id=":r2:"
+        type="date"
+        value=""
+      />
+    </div>
+    <button
+      class="_Button_2a1efe"
+      type="submit"
+    >
+      Add Task
+    </button>
+  </form>
+  <div
+    class="_TasksWrapper_0c2a9a"
+    data-testid="tasks-wrapper"
+  >
+    <div
+      class="controls"
+    >
+      <select>
+        <option
+          value="All"
+        >
+          All
+        </option>
+        <option
+          value="Pending"
+        >
+          Pending
+        </option>
+        <option
+          value="In Progress"
+        >
+          In Progress
+        </option>
+        <option
+          value="Completed"
+        >
+          Completed
+        </option>
+      </select>
+      <div
+        class="_TextField_da86b6"
+      >
+        <input
+          class="_input_da86b6"
+          id=":r3:"
+          placeholder="Search by title..."
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <ul
+      class="_TaskList_e8740a"
+      data-testid="task-list"
+    >
+      <div
+        data-virtuoso-scroller="true"
+        style="position: relative; height: 100%;"
+      >
+        <div
+          data-viewport-type="window"
+          style="width: 100%; height: 100%; position: absolute; top: 0px;"
+        >
+          <div
+            data-testid="virtuoso-item-list"
+            style="box-sizing: border-box; margin-top: 0px; padding-top: 0px; padding-bottom: 0px;"
+          />
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
